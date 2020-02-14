@@ -4,6 +4,8 @@ class StudiosController < ApplicationController
     @studios = Studio.all
   end
 
+  
+
 
   def create
     studio = Studio.create(studio_params)

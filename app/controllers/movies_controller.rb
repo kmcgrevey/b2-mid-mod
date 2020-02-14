@@ -1,7 +1,7 @@
 class MoviesController < ApplicationController
 
   def create
-    studio = Movie.create(movie_params)
+    movie = Movie.create(movie_params)
   end
 
   private
