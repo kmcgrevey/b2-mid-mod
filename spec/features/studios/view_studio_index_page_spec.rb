@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe "View Studio Index Page", type: :feature do
   it "I see a list of studios and its movies" do
     studio1 = Studio.create(name: "Fox")
-    movie1 = Movie.create(title: "Minority Report")
+    movie1 = Movie.create!(title: "Minority Report")
     movie2 = Movie.create(title: "Ice Age")
     studio2 = Studio.create(name: "MGM")
     movie3 = Movie.create(title: "Ben Hur")
